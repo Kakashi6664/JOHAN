@@ -8,13 +8,13 @@ import axios from 'axios';
 import moment from 'moment-timezone';
 
 global.owner = [
-  ['‪22231675561‬', '🔪 JOHAN ', true],
-  ['22231675561', ' 3MK 💸', true],
+  ['‪201289863299', ' 𝘼𝙌𝙐𝘼 𝙎𝘼𝙈𝘼 ', true],
+  ['201271303736', ' 𝘼𝙌𝙐𝘼 𝙎𝘼𝙈𝘼', true],
 ];
 
 global.xaxa = 'kana'
-global.suittag = ['22231675561', '22231675561'];
-global.prems = ['22231675561', '22231675561'];
+global.suittag = ['201289863299', '201271303736'];
+global.prems = ['201289863299', '201271303736'];
 
 global.packname = 'Nezuko🧸 ';
 global.author = '★Nezuko🌺★';
@@ -43,14 +43,14 @@ global.año = d.toLocaleDateString('ar', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
 global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝`;
-global.gt = '★JOHAN★';
-global.mysticbot = '★JOHAN★';
+global.gt = '★𝘼𝙌𝙐𝘼 𝙎𝘼𝙈𝘼★';
+global.mysticbot = '★𝘼𝙌𝙐𝘼 𝙎𝘼𝙈𝘼★';
 global.md = 'https://chat.whatsapp.com/FE54Nj3CorLAcuEzpXZHA7';
 global.mysticbot = 'https://chat.whatsapp.com/FE54Nj3CorLAcuEzpXZHA7';
 global.waitt = '*⌛ _جاري التحميل..._*\n\n*▰▰▰▱▱▱▱▱*';
 global.waittt = '*⌛ _جاري التحميل..._*\n\n*▰▰▰▱▱▱▱▱*';
 global.waitttt = '*⌛ _جاري التحميل..._*\n\n*▰▰▰▱▱▱▱▱*';
-global.nomorown = '22231675561';
+global.nomorown = '201289863299';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
