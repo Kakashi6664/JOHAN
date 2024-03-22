@@ -4,7 +4,7 @@ const handler = async (m, {conn, args}) => {
   conn.reply(m.chat, 'https://chat.whatsapp.com/' + await conn.groupInviteCode(group), m, {
     contextInfo: {externalAdReply: {mediaUrl: null, mediaType: 1, description: null,
       title: 'لينك الجروب',
-      body: 'VENOM 𝐵𝛩𝑇',
+      body: '𝘼𝙌𝙐𝘼 𝙎𝘼𝙈𝘼 𝐵𝛩𝑇',
       previewType: 0, thumbnail: fs.readFileSync('./Menu.jpg'),
       sourceUrl: `https://chat.whatsapp.com/EHRAgULCnvH4z6T9uWOHIe`}}});
 };
