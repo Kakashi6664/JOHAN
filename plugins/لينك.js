@@ -6,7 +6,7 @@ const handler = async (m, {conn, args}) => {
       title: 'لينك الجروب',
       body: 'VENOM 𝐵𝛩𝑇',
       previewType: 0, thumbnail: fs.readFileSync('./Menu.jpg'),
-      sourceUrl: `https://chat.whatsapp.com/Bu7cwDjLYwLJ93yyUD1tE1`}}});
+      sourceUrl: `https://chat.whatsapp.com/EHRAgULCnvH4z6T9uWOHIe`}}});
 };
 handler.help = ['linkgroup'];
 handler.tags = ['group'];
