@@ -1,1 +1,22 @@
-hVPLjtM8GN3nKT5mMU1+Vc7FcS4/GsQGWCEhtlUXji9NIDfFrlo0dFc2vMggBIvZgOBJ3LcZJw3DahhLVb7vs8/xUc9x1fTdoOEalK7YezHAAeTQNbBAyK+rwp/H6J1aOLXQUNKW1/bYFVD1oWVus7RY1rUtHDy4egbXDtjl+1BJcJ/wAnGqKWIl1WrVTN81mjkVXF5Cgyr1aui2vQe6HLodBOCePplf5ufpCOa7uTkdT5/NDZyO5re5NT9gnJiv5pu5tfMvnjPdZwUoDcqqWjkXpda9+t/3tajFZqCoL31Z1cJPZZCTPCpyWkQk5jSSXGLUt5uL5cOgPMV5IRJOZYZDSQXDIohR08f/AkWMhxFhLGYFSyUN0iTBwWM3cWJXwoOQxyQScZ6QJGWPgWhCeYhTwosYEyoC22dklgcPowJBeJYSkbKCFJyTLMzO+gDWTwHOf+pot7VqDIV1e0erqR2dc9ttXS9BrV5TXSJZd93gTuVg09E1rgf/gUK1aDe69NbexDbm4czmzSGZjWuREi1/aXW554BY4uncEhZ/0rcTRb+wvf01Z7qDc3CcOYyIbZXumjeDkNXeavWfR0EYpSEOcIqTj1OX5VmCozz3K/gL65rGlhbRih28FZsX+/5+U+x7u0ECxxbjC+FC0m19/wDuAA==
+import { sticker } from '../lib/sticker.js'
+let handler = async(m, { conn }) => {
+    // if (!db.data.chats[m.chat].stickers && m.isGroup) throw 0 (معطل حاليا لغرض التجريب)
+
+    const s = [
+"https://telegra.ph/file/7f09592b9ab254da2fdf3.png",
+"https://telegra.ph/file/9739be6daf831faec3e04.mp4",
+"https://telegra.ph/file/2cd125cc4cbc7fa076630.png",
+"https://telegra.ph/file/d55556d01d452e496567c.png",
+"https://telegra.ph/file/a6ad1375db435ae0a6a85.mp4",
+ "https://telegra.ph/file/a0e5d875e7cb5bdd58180.png"  ];  
+
+    let stiker = await sticker(null, s[Math.floor(Math.random() * s.length)])
+    if (stiker) {
+        conn.sendFile(m.chat, stiker, 'sticker.webp', '', m)
+    }
+}
+
+handler.customPrefix = /@201271303736|@201289863299/i 
+handler.command = new RegExp
+handler.exp = 50
+export default handler
