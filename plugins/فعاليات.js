@@ -3,7 +3,7 @@ let handler = async (m, {command, conn, usedPrefix}) => {
 let res = (await axios.get(`https://raw.githubusercontent.com/owjdkdjxuwbnd/JOHAN/master/src/JSON/%D8%A7%D8%AD%D8%B2%D8%B1.json`)).data  
 let haha = await res[Math.floor(res.length * Math.random())]    
 conn.sendFile(m.chat, haha, 'error.jpg', `
-〄━━━━━⌬〔JOHAN〕⌬━━━━━〄
+〄━━━━━⌬〔KAKASHI〕⌬━━━━━〄
 
 *⌬🕹️┋السوأل » احزر الشخصية*
 
