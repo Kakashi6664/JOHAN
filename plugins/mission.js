@@ -57,7 +57,7 @@ let str = `
 *『乡kặkặśĥí乡 』*
 *⎔ ⋅ ─━─❖𓆩☠️𓆪❖─━─ ⋅ ⎔*
 ‬`.trim();
-await conn.sendMessage(m.chat, { react: { text: '☠️', key: m.key } })
+await conn.sendMessage(m.chat, { react: { text: '🔖', key: m.key } })
 
 conn.sendMessage(m.chat, {
         video: { url: videoUrl }, caption: str,
