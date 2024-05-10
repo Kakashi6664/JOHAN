@@ -191,7 +191,7 @@ let str = `𝑇𝑅𝐴𝐹𝐴𝐿𝐺𝐴𝑅 𝐿𝐴𝛩-BOT
 
 `.trim();
     
-await conn.sendMessage(m.chat, { react: { text: '🤖', key: m.key } })
+await conn.sendMessage(m.chat, { react: { text: '☘️', key: m.key } })
 
 conn.sendMessage(m.chat, {
         video: { url: videoUrl }, caption: str,
