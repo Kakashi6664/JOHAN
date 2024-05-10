@@ -26,7 +26,7 @@ handler.before = async function(m) {
       const comienzop2 = `*اختار قبل الاعب الاخر*
 حجر
 ورقه
-مقص\nالنقاط +${room.poin}𝚇𝙿\nلفل ${room.poin_lose}𝚇𝙿\n𝙕𝙊𝙍𝙊-𝘽𝙊𝙏`;
+مقص\nالنقاط +${room.poin}𝚇𝙿\nلفل ${room.poin_lose}𝚇𝙿\nlaw-𝘽𝙊𝙏`;
 
       if (!room.pilih) this.sendMessage(room.p, {text: comienzop}, {quoted: m});
       if (!room.pilih2) this.sendMessage(room.p2, {text: comienzop2}, {quoted: m});
